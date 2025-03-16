@@ -30,7 +30,7 @@ static void kmeans(struct data_t *data, gsl_rng *ptGSLRNG,
     double dMaxChange = BIG_DBL;
 
     if (data->verbose)
-        Rprintf("  Soft kmeans\n");
+        Rprintf("xdddd  Soft kmeans\n");
 
     aadY = (double *) calloc(N * S, sizeof(double));
 
